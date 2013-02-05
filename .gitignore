@@ -2,8 +2,11 @@
 Data_ABA_format/
 Data_mat_format/
 Dev/*.zip
+Dev/
 *.mhd
 *.raw
 *.xml
+*.zip
+.gitignore
 
- 
+  
