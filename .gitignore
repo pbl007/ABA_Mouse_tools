@@ -1,0 +1,9 @@
+.DS_Store
+Data_ABA_format/
+Data_mat_format/
+Dev/*.zip
+*.mhd
+*.raw
+*.xml
+
+ 
