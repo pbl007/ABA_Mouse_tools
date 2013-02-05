@@ -1,6 +1,7 @@
  #!/usr/local/bin/perl
  open (MYFILE, 'imageSeriesList.txt');
  $count = 0;
+ print `mkdir Data_ABA_format`;
 
  while (<MYFILE>) {
    print `mkdir temp`;
@@ -13,7 +14,7 @@
    print `wget $url`;
    print `unzip $_ -d temp`;
    print `rm $_`;
-   print `mv temp $_`;
+   print `mv temp Data_ABA_format/$_`;
    #one second delay between downloads
 	sleep(1)
  }
